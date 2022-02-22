@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html {
+  background: white;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: 23vw;
+  margin-right: 23vw;
+  margin-top: 8vh;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+
+.chap_name {
+  width: 48.7vw;
+}
+
+.chap_num {
+  width: 35px;
+  height: 20px;
+  margin-right: 0;
+}
+
+.page_num {
+  text-align: right;
+  width: 30px;
+}
+/* .page_num {
+  width: 12%;
+}
+*/
+span {
+  font-size: 0.7rem !important;
+}
+
+.home_nav {
+  color: black;
+  text-decoration: none;
+  margin-left: 2vw;
+}
+
+.home_nav:hover {
+  background-color: red;
+}
