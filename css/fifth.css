@@ -44,3 +44,13 @@ b {
 span {
   font-weight: 300 !important;
 }
+
+.home_nav {
+  color: black;
+  text-decoration: none;
+  margin-left: 2vw;
+}
+
+.home_nav:hover {
+  background-color: red;
+}
